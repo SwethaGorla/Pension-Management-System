@@ -1,0 +1,6 @@
+.bg-image {
+    /* The image used */
+    background-image: url("pension4.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+}

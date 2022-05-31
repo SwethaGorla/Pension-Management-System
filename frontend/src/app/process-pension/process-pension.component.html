@@ -1,0 +1,52 @@
+
+
+<div class="container">
+     
+    <div class="col-md-8">
+        <div class="bg-image">  
+            
+    <h1 style="color:Green; text-align:center; font-weight: 900;">Transaction Success!</h1>
+    <div style="border:2px solid;border-radius: 5%;margin: 30px;padding: 15px; text-align:center;">
+<h2 style="color:Green; text-align:center;font-weight: 700;">Pension Details</h2>
+<div class="form">
+<div style="font-size: larger;">
+<div class="form-group">
+    <label for="name">Pensioner Name : </label> 
+    <input type="text" name="name" [(ngModel)]="ProcessPensionInput.name" placeholder="name" required=""/>
+    </div>
+<div class="form-group">
+    <label for="name">Aadhaar Number : </label> 
+    <input type="text" name="aadhaarNumber" [(ngModel)]="ProcessPensionInput.aadhaarNumber" placeholder="aadhaarNumber" required=""/>
+    </div> 
+    <div class="form-group">
+    <label for="name">Pension Amount : </label>
+    <input type="text" name="pensionAmount" [(ngModel)]="ProcessPensionInput.pensionAmount" placeholder="pensionAmount" required=""/>
+    </div> 
+    <div class="form-group">
+        <label for="name">Pension Type : </label> 
+        <input type="text" name="name" [(ngModel)]="ProcessPensionInput.typeOfPension" placeholder="type" required=""/>
+        </div>
+        <div class="form-group">
+            <label for="name">Account Number : </label> 
+            <input type="text" name="name" [(ngModel)]="ProcessPensionInput.accountNumber" placeholder="type" required=""/>
+            </div>
+    <div class="form-group">
+        <label for="name">Bank Name : </label>
+        <input type="text" name="bankName" [(ngModel)]="bankName" placeholder="bankName" required=""/>
+    </div> 
+    <div class="form-group">
+        <label for="name">Bank Service Charge : </label>
+        <input type="text" name="bankServiceCharge" [(ngModel)]="ProcessPensionInput.bankServiceCharge" placeholder="bankServiceCharge" required=""/>
+    </div> 
+    <div class="row">
+    <div class="col-md-6" style="text-align:right;">
+    <a [routerLink]="['/pensionDetails']"><button type="submit" class="btn btn-info">Next Pension</button></a></div>
+    <div class="col-md-2">
+    <a [routerLink]="['/login']"><button type="submit" class="btn btn-info">LogOut</button></a></div>
+    </div>
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>
